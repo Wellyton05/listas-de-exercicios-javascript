@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ex10.js" defer></script>
+</head>
+<body>
+    <label for="matricula">Matrícula:</label>
+    <input type="text" id="matricula" name="matricula"><br><br>
+
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" name="idade"><br><br>
+
+    <label for="sexo">Sexo:</label>
+    <select id="sexo" name="sexo">
+        <option value="M">Masculino</option>
+        <option value="F">Feminino</option>
+    </select><br><br>
+
+    <label for="altura">Altura (em cm):</label>
+    <input type="number" id="altura" name="altura"><br><br>
+
+    <label for="concursado">Concursado (S/N):</label>
+    <input type="text" id="concursado" name="concursado"><br><br>
+
+    <button type="button" id="calcular">Calcular</button>
+
+    <h2>Resultados:</h2>
+    <p>Número de funcionárias concursadas: <span id="funcionariasConcursadas">0</span></p>
+    <p>Número de funcionários (somente homens): <span id="funcionariosHomens">0</span></p>
+    <p>Maior idade dos homens concursados: <span id="maiorIdadeHomensConcursados">0</span></p>
+    <p>Quantidade de mulheres com mais de 30 anos sem concurso: <span id="mulheresMais30SemConcurso">0</span></p>
+    <p>Quantidade de concursados(as): <span id="quantidadeConcursados">0</span></p>
+    <p>Média das alturas dos homens com menos de 40 anos: <span id="mediaAlturasHomensMenos40">0</span></p>
+</body>
+</html>
